@@ -94,7 +94,7 @@ export const TodoList: React.FC = () => {
                   >
                     <span className="icon">
                       {currentTodo?.id === todo.id ? (
-                        <i className="Far fa-eye-slash" />
+                        <i className="far fa-eye-slash" />
                       ) : (
                         <i className="far fa-eye" />
                       )}
